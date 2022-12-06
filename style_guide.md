@@ -60,3 +60,25 @@ Use title case for headings.  If the heading is conceptual or non-task based, th
 | Access Audit Logs                                           | Access audit logs                          |   |   |   |
 | Deploy the Infrastructure | Deploying the Infrastructure |   |   |   |
 | 
+
+
+### Command Output
+
+Show the command output to help the reader follow along and validate they are receiving the expected output.
+
+```
+$ kind create cluster
+Creating cluster "kind" ...
+ ✓ Ensuring node image (kindest/node:v1.25.3) 🖼
+ ✓ Preparing nodes 📦
+ ✓ Writing configuration 📜
+ ✓ Starting control-plane 🕹️
+ ✓ Installing CNI 🔌
+ ✓ Installing StorageClass 💾
+Set kubectl context to "kind-kind"
+You can now use your cluster with:
+
+kubectl cluster-info --context kind-kind
+
+Have a nice day! 👋
+```
