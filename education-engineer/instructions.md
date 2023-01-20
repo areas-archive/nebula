@@ -4,7 +4,7 @@ This assignment will test your writing and teaching abilities. The hiring manage
 
 We ask that you DO NOT spend more than three hours on this assignment.  The assignment is not passed or failed but instead used as an indicator to help us understand your capabilities. 
 
-Please submit the assignment no later than 24 hrs before to the technical interview.
+Please submit the assignment no later than 24 hrs before the technical interview.
 
 ## Instructions
 
