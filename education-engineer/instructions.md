@@ -8,9 +8,9 @@ Please submit the assignment no later than 24 hrs before the technical interview
 
 ## Instructions
 
-Create a personal repository that will contain all your changes. You may clone this repoistory if you would like, but please don't fork and submit a pull request (PR) to this repository.
+Create a personal repository that will contain all your changes. You may clone this repository if you would like, but please don't fork and submit a pull request (PR) to this repository.
 
-The file in this folder titled, [tutorial](tutorial.md), contains a tutorial. Your task is to improve the tutorial and help improve the learning experience. You have the freedom to change things as you see fit, this include the text, headings, links, and code snippets. Make the changes you feel improve the quality of the tutorial and the learning exprience. 
+The file in this folder titled, [tutorial](tutorial.md), contains a tutorial. Your task is to improve the tutorial and help improve the learning experience. You have the freedom to change things as you see fit, this includes the text, headings, links, and code snippets. Make the changes you feel improve the quality of the tutorial and the learning experience. 
 We ask that all changes comply with the style guide and the layout guide provided.
 
 Create a PR in your repository when you have completed all the changes and are satisfied with the results. Email a link to the PR to the person you have been in contact with throughout the hiring process. Ensure the repository has public access so the hiring manager can review the PR. 
@@ -18,7 +18,7 @@ Create a PR in your repository when you have completed all the changes and are s
 
 ## Assumptions
 - The reader has no prior experience.
-- You can use Gitlab, GitHub, Bitbucket or any other versioning control system to host your deliverable.
+- You can use Gitlab, GitHub, Bitbucket, or any other versioning control system to host your deliverable.
 
 
 ## Tips
@@ -28,6 +28,3 @@ Create a PR in your repository when you have completed all the changes and are s
 - Review grammar and language.
 
 - Review your final changes with fresh eyes after some time has passed to catch language, flow, and typos.
-
-- Keep things simple.
-
