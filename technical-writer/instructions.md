@@ -17,13 +17,16 @@ Create a pull request (PR) in your repository when you have completed all the ch
 
 ## Assumptions
 - The reader has basic knowledge of Kubernetes.
+- The current text is a draft, you are a technical writer that has been tasked with improving the text and content.
 - You can use Gitlab, GitHub, Bitbucket, or any other versioning control system to host your deliverable.
-- Assume the content will reside in a formal documentation site.
+- Assume the content would reside in a formal documentation site.
 
 
 ## Tips
 
 - Carefully review the [style guide](../style_guide.md).
+
+- Use [markdown](https://www.markdownguide.org/) and its features.
 
 - Review grammar and language.
 
