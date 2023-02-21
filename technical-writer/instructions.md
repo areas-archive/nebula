@@ -14,6 +14,8 @@ The file in this folder, [assignment](assignment.md), contains text that is inte
 
 Create a pull request (PR) in your repository when you have completed all the changes and are satisfied with the results. Email a link to the PR to the person you have been in contact with throughout the hiring process. Ensure the repository has public access so the hiring manager can review the PR. 
 
+>**Warning**: Do not use ChatGTP or similar AI tool to rewrite the assignment for you. The interview process is designed to flag the usage of AI.
+
 
 ## Assumptions
 - The reader has basic knowledge of Kubernetes.

@@ -15,6 +15,7 @@ We ask that all changes comply with the style guide and the layout guide provide
 
 Create a PR in your repository when you have completed all the changes and are satisfied with the results. Email a link to the PR to the person you have been in contact with throughout the hiring process. Ensure the repository has public access so the hiring manager can review the PR. 
 
+>**Warning**: Do not use ChatGTP or similar AI tool to rewrite the assignment for you. The interview process is designed to flag the usage of AI.
 
 ## Assumptions
 - The reader has no prior experience.
