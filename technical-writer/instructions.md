@@ -8,7 +8,7 @@ Please submit the assignment no later than 24 hrs before the technical interview
 
 ## Instructions
 
-Create a personal repository that will contain all your changes. You may clone this repository if you would like, but please don't fork and submit a pull request (PR) to this repository. If you need guidance in cloning a repository, check out the [Cone a Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) guide from GitHub.
+Create a personal repository that will contain all your changes in a new branch. You may clone this repository if you would like, but please don't fork and submit a pull request (PR) to this repository. If you need guidance in cloning a repository, check out the [Cone a Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) guide from GitHub.
 
 The file in this folder, [assignment](assignment.md), contains text that is intended to go to a documentation reference page. Your task is to improve the text and help improve the reading experience. You have the freedom to change everything you feel is needed. This includes adding or removing content and changing the markdown elements such as headings, links, titles, images, and code snippets. Make the changes you feel improve the quality of the text and the learning experience.  We ask that all changes comply with the style guide provided.
 
@@ -25,6 +25,8 @@ Create a pull request (PR) in your repository when you have completed all the ch
 
 
 ## Tips
+
+- Create a new git branch before making any changes.
 
 - Carefully review the [style guide](../style_guide.md).
 
