@@ -1,6 +1,7 @@
-# Use Kubernetes CLI to Debug Your Cluster
+# Use Kubernetes CLI to Debug Pods In Your Cluster
 Lorem ipsum dolor.
 
+## Table of Contents
 - [Get a List of Pods](#get-a-list-of-pods)
 - [Print a Pod’s Logs](#print-a-pods-logs)
 - [Execute a Command](#execute-a-command)
