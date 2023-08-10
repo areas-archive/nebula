@@ -1,7 +1,12 @@
 # Kubernetes CLI Debug Operations
 Lorem ipsum dolor.
 
---------------------------------------------------
+- [Get a List of Pods](get-a-list-of-pods)
+- [Print a Pod’s Logs](print-a-pods-logs)
+- [Execute a Command](execute-a-command)
+- [Create a Debug Session](create-a-debug-session)
+
+
 ## Get a List of Pods
 
 Use the `get pods` command to get a list of the default namespace’s pods:
