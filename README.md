@@ -78,8 +78,13 @@ kubectl exec <command> # replace <command> with the command’s name
 
 
 ## Create a Debug Session
-Create a debug session for a pod.
+Use the `debug` command to create a debug session:
 
 ```shell
-kubectl debug 
+kubectl debug <pod> --image=<image> # replace <pod> with the pod’s name and <image> with the image’s name
 ```
+
+```shell
+Defaulting debug container name to debugger-hbcf9.
+```
+
