@@ -20,7 +20,7 @@ NAME       READY   STATUS      RESTARTS   AGE
 node-pod   1/1     Completed   0          5h10m
 ```
 
-To get a list of another namespace’s pods, use the `--namespace` or `-n` flag:
+To get a list of another namespace’s pods, use the `--namespace` (or `-n`) flag:
 
 ```shell
 kubectl get pods --namespace=<namespace> # replace <namespace> with the namespace’s name
@@ -31,7 +31,7 @@ NAME            READY   STATUS    RESTARTS   AGE
 postgres-db     1/1     Running   0          14d
 ```
 
-To get a list of all namespace’s pods, use the `all-namespaces` or `-A` flag:
+To get a list of all namespace’s pods, use the `all-namespaces` (or `-A`) flag:
 
 ```shell
 kubectl get pods --all-namespaces
@@ -69,13 +69,52 @@ Built page: /
 ```
 
 ## Execute a Command
-Execute a command in a container in a pod:
+Use the `exec` command to execute a command:
 
 ```shell
-kubectl exec <command> # replace <command> with the command’s name
+kubectl exec <pod> <command> # replace <pod> with the pod’s name and <command> with the command and its arguments
 ```
 
-<!-- Add a reference to a list of commands. Maybe add a few common commands a user can use. -->
+To learn more about the `exec` command, use the `--help` (or `-h`) flag:
+
+```shell
+kubectl exec --help
+```
+
+```shell
+Execute a command in a container.
+
+Examples:
+  # Get output from running the 'date' command from pod mypod, using the first container by default
+  kubectl exec mypod -- date
+
+...
+
+Options:
+    -c, --container='':
+	Container name. If omitted, use the kubectl.kubernetes.io/default-container annotation for selecting the
+	container to be attached or the first container in the pod will be chosen
+
+    -f, --filename=[]:
+	to use to exec into the resource
+
+    --pod-running-timeout=1m0s:
+	The length of time (like 5s, 2m, or 3h, higher than zero) to wait until at least one pod is running
+
+    -q, --quiet=false:
+	Only print output from the remote session
+
+    -i, --stdin=false:
+	Pass stdin to the container
+
+    -t, --tty=false:
+	Stdin is a TTY
+
+Usage:
+  kubectl exec (POD | TYPE/NAME) [-c CONTAINER] [flags] -- COMMAND [args...] [options]
+
+Use "kubectl options" for a list of global command-line options (applies to all commands).
+```
 
 
 ## Create a Debug Session
