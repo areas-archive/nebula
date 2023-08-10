@@ -13,10 +13,8 @@ kubectl get pods
 To get a list of another namespace’s pods, use the `--namespace` or `-n` flag.
 
 ```shell
-kubectl get pods --namespace=<namespace>
+kubectl get pods --namespace=<namespace> # replace <namespace> with the namespace’s name
 ```
-
-Where `<namespace>` is the namespace’s name.
 
 To get a list of all namespace’s pods, use the `all-namespaces` or `-A` flag.
 
@@ -31,10 +29,8 @@ kubectl get pods --all-namespaces
 Use the `logs` command to print a pod’s logs.
 
 ```shell
-kubectl logs <pod>
+kubectl logs <pod> # replace <pod> with the pod’s name
 ```
-
-Where `<pod>` is the pods’s name.
 
 
 --------------------------------------------------
@@ -43,10 +39,8 @@ Where `<pod>` is the pods’s name.
 Execute a command in a container in a pod.
 
 ```shell
-kubectl exec <command>
+kubectl exec <command> # replace <command> with the command’s name
 ```
-
-Where `<command>` is the command’s name.
 
 <!-- Add a reference to a list of commands. Maybe add a few common commands a user can use. -->
 
