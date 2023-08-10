@@ -6,6 +6,7 @@ Lorem ipsum dolor.
 - [Print a Pod’s Logs](#print-a-pods-logs)
 - [Execute a Command](#execute-a-command)
 - [Create a Debug Session](#create-a-debug-session)
+- [Learn More](#learn-more)
 
 
 ## Get a List of Pods
@@ -128,3 +129,7 @@ kubectl debug <pod> --image=<image> # replace <pod> with the pod’s name and <i
 Defaulting debug container name to debugger-hbcf9.
 ```
 
+## Learn More
+- [Kubernetes Overview](https://kubernetes.io/docs/concepts/overview/)
+- [Kubernetes CLI Cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+- [Kubernetes CLI Commands](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands)
