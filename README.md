@@ -16,13 +16,18 @@ kubectl get pods
 
 ```shell
 NAME       READY   STATUS      RESTARTS   AGE
-node-pod   0/1     Completed   0          38s
+node-pod   1/1     Completed   0          5h10m
 ```
 
 To get a list of another namespace’s pods, use the `--namespace` or `-n` flag:
 
 ```shell
 kubectl get pods --namespace=<namespace> # replace <namespace> with the namespace’s name
+```
+
+```shell
+NAME            READY   STATUS    RESTARTS   AGE
+postgres-db     1/1     Running   0          14d
 ```
 
 To get a list of all namespace’s pods, use the `all-namespaces` or `-A` flag:
@@ -44,6 +49,7 @@ kube-system          kube-controller-manager-kind-control-plane   1/1     Runnin
 kube-system          kube-proxy-966bh                             1/1     Running     0          9h
 kube-system          kube-scheduler-kind-control-plane            1/1     Running     0          9h
 local-path-storage   local-path-provisioner-6bc4bddd6b-68brg      1/1     Running     0          9h
+database             postgres-db                                  1/1     Running     0          7d
 ```
 
 
