@@ -74,6 +74,7 @@ Building pages...
 Built page: /
 ```
 
+
 ## Execute a Command
 Use the `exec` command to execute a command:
 
@@ -133,6 +134,7 @@ kubectl debug <pod> --image=<image> # replace <pod> with the pod’s name and <i
 ```shell
 Defaulting debug container name to debugger-hbcf9.
 ```
+
 
 ## Learn More
 - [Kubernetes Overview](https://kubernetes.io/docs/concepts/overview/)
