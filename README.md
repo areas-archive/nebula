@@ -1,9 +1,9 @@
 # Use Kubernetes CLI to Debug Pods In Your Cluster
 The Kubernetes CLI (`kubectl`) is a command line interface you can use to interact with Kubernetes.
 
-You can use `kubectl` to debug pods in your cluster. We recommend you use the `get pods`, `logs`, and `exec` commands, in that order. To learn how to use these commands, browse the reference below.
+You can use `kubectl` to debug pods in your cluster. To debug, we recommend you use the `get pods`, `logs`, and `exec` commands, in that order. Alternatively, you can use the `debug` command to create a clone of your pod.
 
-Alternatively, you can use the `debug` command to create a clone of your pod.
+To learn how to use these commands, browse the reference below.
 
 
 ## Table of Contents
